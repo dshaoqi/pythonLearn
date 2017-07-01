@@ -1,0 +1,7 @@
+try:
+	guess=int(input('input a number:')
+except ValueError:
+	print('your input is not a number')
+else :
+	print('your input is',guess)
+

@@ -1,0 +1,21 @@
+#!/usr/bin/python
+
+number=23
+running = True
+print("input -1 to kill the game")
+while running :
+	guess=int(input("Enter an integer:"))
+
+	if guess==number :
+		print("Congratulation,you guessed it.")
+		break;
+	elif guess <  number :
+		print ("no,it is a little higher than your input.")
+        elif guess==-1 :
+                break;
+	else :
+		print ("no, it is a little lower than yout input")
+else:
+	print ("the loop is over")
+print("done")
+		

@@ -1,0 +1,7 @@
+x='test'
+try:
+	fetcher(x,10)
+except IndexError:
+	print('wrong index')
+except NameError:
+	print('name error')
